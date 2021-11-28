@@ -34,7 +34,7 @@ while True:
             server.login(from_email, password)
             server.sendmail(from_email, to_email, msg.as_string())
             server.quit()
-            print('[+]Sending message ' + i)
+            print('[+]Sending message ',i)
             i = i + 1
 
     while True:  
