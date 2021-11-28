@@ -36,6 +36,7 @@ while True:
             server.quit()
             print('[+]Sending message ',i)
             i = i + 1
+            col = col - 1
 
     while True:  
         if input('[*]Restart [y/n]:') in ('n','y'):
