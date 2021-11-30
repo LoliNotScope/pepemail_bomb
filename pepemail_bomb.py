@@ -38,7 +38,7 @@ while True:
             i = i + 1
             col = col - 1
 
-    while True:  
-        if input('[*]Restart [y/n]:') in ('n','y'):
-            print(Fore.RESET)
-            break
+        while True:  
+            if input('[*]Restart [y/n]:') in ('n','y'):
+                print(Fore.RESET)
+                break
